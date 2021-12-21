@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title >Awesome Photographer</title>
+
+
+    <link rel="stylesheet" href="css/all.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:200,100,400" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet"  href="css/all.css">
+    <link rel="stylesheet" href="css/animate.min.css" /> 
+    
+    <link rel="stylesheet"  href="css/hover.css" />
+
+
+
+<style>
+    *{box-sizing:border-box; }
+    *{font-family:Arial, Helvetica, sans-serif}
+    a{text-decoration: none;}
+
+   nav{padding-top: 5%;
+      overflow: hidden; 
+      display: flex;
+      flex-wrap: wrap;
+     text-align: center;
+       width: 82%;margin: auto;
+    }
+
+    nav .logo{ flex: 20%;}
+
+    .nav-links{ flex: 50%;
+    display: flex;
+     flex-wrap: wrap;padding-top: 10px;
+   }
+    
+    nav a{padding: 5px;
+    color: black;
+    flex:5%;text-align: left;
+        font-size: 18px;
+    }
+
+    nav a:hover{color: blue;}
+
+
+   .title1 { border-bottom:solid ;border-image: linear-gradient(to right, rgb(89, 200, 228), white) 1}
+
+    
+ 
+
+ 
+ 
+.w-50{width: 50%;}
+.w-25{width: 25%}
+.w-100{width: 100%;}
+.h-50{height: 200px;}
+.w-70{width:70%}
+.container{margin: auto;width:95%;overflow: hidden;}
+
+.main-photo{    
+    background-image: url(img/banner.jpg);
+    /*position: relative;*/
+    height: 45rem;width: 100%;
+    background-repeat: no-repeat;
+    background-position: top;background-position-y: 15%;
+   
+}
+ .photlink 
+{ 
+  text-align: center;padding-top: 15rem;
+  background: rgba(0, 0, 0, 0.7); /* Black background with 0.5 opacity */
+  color: #f1f1f1;height: 45rem;
+  width: 100%; margin: auto;
+}
+
+.photlink h1 a{color: white;font-size: 2em;}
+.photlink p {color: white;font-size: 1em;}
+
+.photlink  a span{color: rgb(110, 187, 223);}
+
+.photlink  h1 a:hover,a span:hover{color: yellow;}
+
+
+
+/**//**//**//**//**//**//**/
+.btn:hover{color: rgb(69, 224, 64);background-color: rgb(214, 209, 235);}
+.btn{color: rgb(22, 137, 231);background-color: transparent;padding: 20px;border: solid thin  rgb(13, 133, 231);font-size: 20px;}
+
+.about-us,.services,.our-team,.testimonial,.contact-us{text-align: center;}
+
+.about-us h1,.services h1,.our-team h1,.our-portfolio h1,.our-pricing h1,.contact-us h1{color: black;font-size: 2em}
+.about-us span,.services span,.our-team span,.our-portfolio span,.testimonial span,.our-pricing span,.contact-us span{color: rgb(110, 187, 223);}
+.testimonial h1{color: rgb(253, 251, 251);font-size: 2em}
+
+ul{list-style-type: none;}
+ul a{color: black;
+ 
+}
+ul a:hover{color: rgb(218, 35, 35);}
+
+.about-left p,.about-right p{font-size: 20px;}
+.fa-hand-point-right{padding-right: 20px;color: cornflowerblue;}
+ li {margin-bottom: 20px;font-size: 17px;}
+
+
+ .tree{position: relative;
+    height: 20rem;width: 100%;
+    background-image: url(img/parallex-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.link-tree div{
+  padding: 2rem;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.8); /* Black background with 0.5 opacity */
+  color: #f1f1f1;height: 20rem;
+  width: 100%; margin: auto;
+  }
+
+  
+
+  .services{background-color: rgb(235, 232, 232);width: 100%;margin: auto;margin-top: 0;border: solid transparent;}
+
+  .service-container,.container-our-team,.our-pricing{width: 90%; margin: auto;text-align: center;padding-bottom: 50px;}
+  
+  .serv{padding: 2rem;background-color: white;display: inline-block;width: 31%;height: 300px; margin: 1rem;}
+
+  .serv .fas, .far{color: rgb(110, 187, 223);font-size: 30px;}
+
+  .container-our-team img{padding: 2rem; width: 22.5%;}
+
+
+  /*.counters{margin:auto ; width: 100%;}*/
+
+  .counters {background-repeat: no-repeat;
+   background-image: url(img/counters-bg.jpg);
+   background-position: top;height: 20rem;width:100%;}
+
+.counter-container{background: rgba(0, 0, 0, 0.8);width:100%;margin: auto;text-align: center;height: 20rem;border:solid;overflow: hidden;}
+
+.cnt{display:inline-block;padding: 2rem;color: white;
+width: 19%;font-size: 2rem;
+text-align: center;}
+
+.counter-container .cnt .far, .fas{font-size: 3rem;color: gray;}
+.counter-container .cnt .far:hover, .fas:hover{color: #FFFFFF;
+background: #232323;
+text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;}
+.port-links a{border: solid thin rgb(120, 206, 218); color:rgb(72, 96, 99) ;padding: 20px;font-size: 23px;}
+.port-links a:hover{background-color: teal; color: white;}
+
+
+.our-portfolio{width: 100%; margin: auto;text-align: center;}
+.portfolio-photo{margin-top: 5%; width: 100%; }
+.portfolio-photo img{width: 33.1%;padding: 0;margin: 0;}
+.portfolio-photo img:hover{opacity: 50%;transition: 1s;}
+
+.testimonial{height: 25rem;width: 100%;
+    background-image: url(img/counters-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    margin-top: 0;
+    margin: auto;}
+
+.test-container{font-size: 1rem;
+    color: white;background: rgba(0, 0, 0, 0.7);width:100%;margin: auto;text-align: center;height: 25rem;border:solid;margin-top: 0;
+}
+
+
+
+.pricing-container{width:85%; padding: 5%;margin: auto;}
+
+.price-card1,.price-card2{width: 30%;display: inline-block;padding: 20px;height: 600px;
+border-top: solid thin;box-shadow: 5px 13px 29px 2px #AAAAAA;
+margin: 1%;}
+.price-card1 p,.price-card2 p{font-size: 22px;}
+
+.price-card1 .top-card{background-color: rgb(235, 230, 230);
+width: 90%;height: 180px;padding: 10px;}
+
+.price-card1 .top-card h1{font-size: 40px;margin: 0;}
+.price-card1 .top-card span{font-size: 30px;color: black;}
+
+.price-card1 a{color: white;background-color: black;padding: 20px;}
+
+
+.price-card2 .top-card{background-color: rgb(62, 158, 221);color: white;
+width: 90%;height: 180px;padding: 10px;}
+
+.price-card2 a{background-color: rgb(120, 190, 236);color: white;;padding: 20px;}
+
+.price-card2 .top-card h1{font-size: 40px;margin: 0;color: white;}
+.price-card2 .top-card span{font-size: 30px;color: rgb(255, 255, 255);}
+
+
+
+
+
+
+
+/*MEDIA QUERY*/
+
+/*
+@media (min-width:0) and (max-width:360px)
+ {
+    *{margin: auto;}
+    *{box-sizing: border-box;}
+    *{margin-top: 3%;}
+    *{width:100%}
+    .container{width:97%;  }  
+    .pricing-container{width:100%;margin: auto;}
+    .price-card1,.price-card2{width:100%;margin: auto;}
+    .contact-us{padding:50%;border: solid; width: 100%;}
+
+
+    .nav{  border: solid red;}
+    .nav .logo{margin: auto; border: solid green;
+    position: absolute;left:10%;}
+
+    .nav a{background-color: red;
+             width: 100%;
+          }
+ }
+
+*/
+
+/*
+@mdia(min-width:501px) and (max-width:700px) {}
+
+@mdia(min-width:701px) and (max-width:900px) {}
+
+@mdia(min-width:901px)  {}*/
+/*MEDIA QUERY*/
+
+@media screen and (max-width: 900px) {
+   /* body{background: rgb(198, 243, 247);}*/
+    *{margin: auto;}
+    *{box-sizing: border-box;}
+    *{margin-top: 3%;}
+    .container{width:97%;  }
+
+    .nav{ height:100%; 
+        flex-direction: column;text-align: center; }
+
+    .nav .logo{flex: 100%;
+   }
+
+    .nav-links a{flex: 100%;width: 97%;
+           border: solid thin rgb(120, 219, 236); padding: 20px;
+          }
+.nav-links{flex: 100%;flex-direction: column}
+
+
+.about-left,.about-right,.c-left,.c-right,.serv,.map,.port-links,.our-team img{width: 100%;margin: auto;}
+
+.serv{margin-top: 3%;}
+
+
+
+ .contact-us{ width: 100%;margin-top: 7rem; }
+ .contact-us h1{ margin-top: 7rem;  }
+
+ .contact-us .contus{width:100%;border:solid thin;margin-top: 5rem; }
+
+.port-links a{width: 99%; }
+
+
+
+.our-portfolio{width: 100%; padding: 0;margin: 0;}
+.portfolio-photo{ width: 100%;height: 100%;padding: 0; }
+.portfolio-photo img{width: 100%;height: 100%; padding: 0;margin: 0;}
+
+
+
+.counter-container {width: 100%;height: 80rem;}
+
+.counter-container .cnt {padding: 2rem;color: white;
+width: 100%;font-size: 2rem; display: block;
+}
+.pricing-container{width:100%;margin: auto;}
+ .price-card1,.price-card2{width:100%;margin: auto; margin-top: 2rem;}
+
+
+   .counters {
+   background-image: url(img/counters-bg.jpg);
+   background-position: top;width:100%;height: 100%;}
+
+}
+
+
+
+
+/*@media(min-width:901px)  { 
+     *{margin: auto;}
+     *{box-sizing: border-box;}
+    
+    
+    .container{width:97%;  }   
+    .our-pricing{width: 100%; margin: auto;text-align: center;}
+    .pricing-container{width:100%; padding: 5%;margin: auto;}
+    
+    
+
+
+    }*/
+
+</style>
+
+
+
+
+</head>
+
+
+<body>
+    <nav >
+        <div class="logo hvr-pop" >
+         <img src="img/logo-one.png" >
+        
+      </div>
+    
+     <div class="nav-links" >
+     <a href="#" >HOME</a>
+     <a href="#" >ABOUT US</a>
+     <a href="#" >SERVICES</a>
+     <a href="#" >OUR TEAM</a>
+     <a href="#" >POTOFOLIO</a>
+     <a href="#" >TESTIMONIAL</a>
+     <a href="#" >CONTACT US</a>
+    </div>
+   
+
+    </nav>
+
+<section class="container">
+
+     <section class="main-photo"  >
+      <div class="photlink" >
+                 <h1><a  href="" >Welcome are <span>Awesome photographer</span> </a></h1>
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.adipisicing elit.</p>
+                 
+                <div style="margin-top: 3rem;"> <a href="" style=" border: solid white; font-size: LARGE;padding: 20PX; color: white;" class="btn hvr-shutter-out-horizontal">LEARN MORE </a></div>
+    </div>
+ </section>
+
+      
+
+<section class="about-us">
+
+    <h1>ABOUT <span class="title1">US</span></h1>
+
+<div class="about-container" style=" overflow: hidden; font-size: 1.5rem;">
+
+<div class="about-left w-50" style="float: left;text-align: left; overflow: hidden;padding-left: 6%;">
+<h1 style="font-size: 25px;">Welcome to our Photography Templat</h1>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda, fugiat tempora! Dolore, quasi nisi accusantium nulla doloremque assumenda cum blanditiis saepe id tenetur! Consectetur dolor repellat assumenda voluptatum? Natus, iste!
+Mollitia deserunt esse necessitatibus cum incidunt quaerat optio, sed sint ipsum debitis! Id dolor cupiditate dolores soluta nostrum inventore optio. Iusto molestias ipsam earum eos aspernatur exercitationem consequuntur, totam sed!
+Optio, praesentium? Exercitationem eligendi sit, ducimus quisquam <br><br>amet aperiam. Incidunt, accusantium nostrum? Molestias, ea provident eum aut blanditiis at quis. A dolor tempora aspernatur non officia necessitatibus optio mollitia in.
+Saepe consequatur ut, dolorem dicta neque maxime sequi quaerat.
+</p>
+
+<div class="w-50 c-left" style="float:left ;">
+    <ul>
+        <li ><a href=""><i class="far fa-hand-point-right hvr-pop"></i>CREATIVE PHOTOGHRAPHY</a></li>
+        <li><a href=""><i class="far fa-hand-point-right hvr-pop"></i>CREATIVE PHOTOGHRAPHY</a></li>
+
+        <li><a href=""><i class="far fa-hand-point-right hvr-pop"></i>CREATIVE PHOTOGHRAPHY</a></li>
+        <li><a href=""><i class="far fa-hand-point-right hvr-pop"></i>CREATIVE PHOTOGHRAPHY</a></li>
+    </ul>
+</div>
+<div class="w-50 c-right" style="float:right ;padding-left: 0;">
+     <ul>
+        <li><a href=""><i class="far fa-hand-point-right hvr-pop"></i>CREATIVE PHOTOGHRAPHY</a></li>
+        <li><a href=""><i class="far fa-hand-point-right hvr-pop"></i>CREATIVE PHOTOGHRAPHY</a></li>
+
+        <li><a href=""><i class="far fa-hand-point-right hvr-pop"></i>CREATIVE PHOTOGHRAPHY</a></li>
+        <li><a href=""><i class="far fa-hand-point-right hvr-pop"></i>CREATIVE PHOTOGHRAPHY</a></li>
+     </ul>
+</div>
+     <div style="padding-top: 50px;float: left;padding: 20px;">
+        <a href="" style=" border: solid darkcyan; font-size: LARGE;padding: 20px; color: darkcyan;" class="btn hvr-shutter-out-horizontal">LEARN MORE </a>
+    </div>
+</div>
+
+
+
+<div class="about-right w-50" style="float: right;padding: 0;"><img src="img/about-us.png" alt="" class="w-70" ></div>
+
+</div>
+
+
+</section>
+
+
+<section class="tree">
+
+ <div class="link-tree">
+    <div >
+    <h1 style="font-size: 2em;">Lorem ipsum dolor sit amet consectetur adipisicing elit. </h1>
+      <a href="" style=" border: solid white; font-size: LARGE;padding: 20PX; color: white;" class="btn hvr-shutter-out-horizontal">LEARN MORE </a>
+    </div>
+    </div>
+
+
+</section>
+   
+
+<section class="services" >
+
+<div>  <h1>OUR <span class="title1">SERVICES</span> </h1></div>
+
+<div class="service-container" >
+ 
+    <div class="serv hvr-float-shadow">
+    <a href=""><i class="fas fa-calendar-alt"></i></a>
+        <h2>EVENTS</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In culpa vitae laudantium reiciendis, ea molestiae ratione veniam sapiente sit blanditiis, assumenda libero dicta animi ipsa. Similique eius velit impedit facere!</p>
+  </div>
+  
+  <div class="serv hvr-float-shadow">
+    <a href=""><i class="fas fa-video"></i></a>
+    <h2>FAMILY PHOTOGHRAPHY</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In culpa vitae laudantium reiciendis, ea molestiae ratione veniam sapiente sit blanditiis, assumenda libero dicta animi ipsa. Similique eius velit impedit facere!</p>
+
+</div>
+
+
+  <div class="serv hvr-float-shadow">
+    <a href=""><i class="far fa-image"></i>  </a>
+    
+    <h2 style="word-wrap: wrap none;">ANNIVERSARY PHOTOGHRAPHY</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In culpa vitae laudantium reiciendis, ea molestiae ratione veniam sapiente sit blanditiis, assumenda libero dicta animi ipsa. Similique eius velit impedit facere!</p>
+
+    </div>
+   <div class="serv hvr-float-shadow">
+   <a href=""> <i class="fas fa-video"></i> </a>  
+    <h2>WEDDING PHOTOGHRAPHY</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In culpa vitae laudantium reiciendis, ea molestiae ratione veniam sapiente sit blanditiis, assumenda libero dicta animi ipsa. Similique eius velit impedit facere!</p>
+
+    </div>
+
+  <div class="serv hvr-float-shadow">
+    <a href=""><i class="fas fa-camera-retro"></i> </a> 
+   <h2> NEW BORN PHOTOGHRAPHY </h2>
+   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In culpa vitae laudantium reiciendis, ea molestiae ratione veniam sapiente sit blanditiis, assumenda libero dicta animi ipsa. Similique eius velit impedit facere!</p>
+</div>
+
+
+  <div class="serv hvr-float-shadow">
+   <a href=""> <i class="fas fa-camera"></i></a>
+    <h2>ENGAGEMENT PHOTOGHRAPHY</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In culpa vitae laudantium reiciendis, ea molestiae ratione veniam sapiente sit blanditiis, assumenda libero dicta animi ipsa. Similique eius velit impedit facere!</p>
+
+</div>
+
+</div>
+
+
+</section>
+
+<section class="our-team" >
+    <div >   <h1 >OUR <span class="title1">TEAM</span> </h1></div>
+
+   
+<div class="container-our-team">
+<img src="img/out-team1.jpg" alt="" class="hvr-pop">
+<img src="img/out-team2.jpg" alt="" class="hvr-pop">
+<img src="img/out-team3.jpg" alt="" class="hvr-pop">
+<img src="img/out-team4.jpg" alt="" class="hvr-pop">
+</div>
+</section>
+
+<section class="counters">
+<div class="counter-container">
+<div class="cnt">
+    <i class="far fa-clock hvr-pop"></i>
+    <h2>12544</h2>
+    <p>Hours of work</p>
+</div>
+<div class="cnt">
+    <i class="fas fa-user-friends hvr-pop"></i>
+    <h2>160</h2>
+    <p>Satisfied Clients</p>
+</div>
+<div class="cnt">
+    <i class="fas fa-laptop hvr-pop"></i>
+    <h2>530</h2>
+    <p>Project Completed</p>
+
+</div>
+<div class="cnt">
+    <i class="far fa-thumbs-up hvr-pop"></i>
+    <h2>47</h2>
+    <p>Awards Won</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+<section class="our-portfolio">
+    <div>  <h1>OUR <span class="title1">POTFOLIO</span> </h1></div>
+<div class="port-links" style=" display: inline-block; overflow: hidden;">
+    <a href="" class="hvr-pop">ALL</a>
+    <a href="" class="hvr-pop">Wordpress</a>
+    <a href="" class="hvr-pop">jquery</a>
+    <a href="" class="hvr-pop">php</a>
+    <a href="" class="hvr-pop">css</a>
+    <a href="" class="hvr-pop">html</a>
+</div>
+
+<div class="portfolio-photo">
+<img src="img/gallery-img1.jpg" alt="" >
+<img src="img/gallery-img2.jpg" alt="" >
+<img src="img/gallery-img3.jpg" alt="" >
+<img src="img/gallery-img4.jpg" alt="" >
+<img src="img/gallery-img5.jpg" alt="" >
+<img src="img/gallery-img6.jpg" alt="" >
+<img src="img/gallery-img7.jpg" alt="" >
+<img src="img/gallery-img8.jpg" alt="">
+<img src="img/gallery-img9.jpg" alt="">
+
+
+</div>
+
+</section>
+
+<section class="testimonial" >
+  <div class="test-container">
+    <div>  <h1>CLIENT <span class="title1">TESTIMONIAL</span> </h1></div>
+ 
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> 
+<p>Lorem ipsum dolor sit amet.</p> 
+<img src="img/testimonials2.png" alt="" style="border-radius: 50%;background-color: white;" class="hvr-pop">
+ 
+</div>
+
+</section>
+
+
+<section class="our-pricing">
+    <div>  <h1>OUR <span class="title1">PRICING</span> </h1></div>
+
+<div class="pricing-container" >
+
+<div class="price-card1 hvr-float-shadow">
+   <div class="top-card" style="width: 90%;margin: auto;">
+   <h2 >BASIC</h2>
+      <h1>99. <span>9</span></h1>
+     <p>MONTHLY PLAN</p>
+   </div>
+
+<P>FULL ACCESS</P>
+<P>Lorem ipsum dolor sit </P>
+<P>Lorem ipsum dolor sit </P>
+<P>Lorem ipsum dolor sit </P>
+<P>Lorem ipsum dolor sit </P>
+<div style="padding-top: 30px;">
+<a href="" class="hvr-shutter-out-horizontal">BUY NOW</a></div>
+
+</div>
+
+
+
+<div class="price-card2 hvr-float-shadow">
+    <div class="top-card" style="width: 90%;margin: auto;">
+        <h2 >STANDARD</h2>
+           <h1>99. <span>9</span></h1>
+          <p>MONTHLY PLAN</p>
+        </div>
+     
+     <P>STANDARD</P>
+     <P>Lorem ipsum dolor sit </P>
+     <P>Lorem ipsum dolor sit </P>
+     <P>Lorem ipsum dolor sit </P>
+     <P>Lorem ipsum dolor sit </P>
+     <div style="padding-top: 30px;">
+     <a href="" class="hvr-shutter-out-horizontal">BUY NOW</a></div>
+ 
+ </div>
+
+
+
+ <div class="price-card1 hvr-float-shadow">
+    <div class="top-card" style="width: 90%;margin: auto;">
+        <h2 >ENTERPRISE</h2>
+           <h1>99. <span>9</span></h1>
+          <p>MONTHLY PLAN</p>
+        </div>
+     
+     <P>FULL ACCESS</P>
+     <P>Lorem ipsum dolor sit </P>
+     <P>Lorem ipsum dolor sit </P>
+     <P>Lorem ipsum dolor sit </P>
+     <P>Lorem ipsum dolor sit </P>
+     <div style="padding-top: 30px;">
+     <a href="" class="hvr-shutter-out-horizontal">BUY NOW</a></div>
+ 
+ </div>
+
+
+
+
+</div>
+
+</section>
+
+<section class="map" style="width: 100%; height: 500px;">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6824.706227864964!2d29.926996999999997!3d31.210945000000002!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f5c47db36d81bf%3A0x8a4381ea58d5ad96!2sAl%20Ibrahimiyyah%2C%20Al%20Ibrahimeyah%20Qebli%20WA%20Al%20Hadrah%20Bahri%2C%20Bab%20Sharqi%2C%20Alexandria%20Governorate!5e0!3m2!1sen!2seg!4v1634964257085!5m2!1sen!2seg" width="2500" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</section> 
+
+
+<section class="contact-us w-70 " style="margin: auto; padding: 7%;">
+    <div>  <h1>CONTACT <span class="title1" >US</span> </h1></div>
+
+<input type="text" class="w-50 contus" placeholder="Your Name" style="padding: 20px;margin-top: 2%;font-size: 20px;">
+<input type="text" class="w-50 contus" placeholder="Email Address" style="padding: 20px;margin-top: 2%;font-size: 20px;">
+<input type="text" class="w-50 contus" placeholder="subject" style="padding: 20px;margin-top: 2%;font-size: 20px;">
+<textarea type="text" class="w-50 contus" placeholder="Message" style="padding: 20px;margin-top: 2%;height: 300px;font-size: 20px;"></textarea>
+
+
+<div style="padding-top: 30px;">
+    <a href="" class="btn hvr-shutter-out-horizontal">SEND MESSAGE</a></div>
+    
+    </div>
+
+
+</section>
+
+<section class="footer" style="height: 80px;background-color: rgb(62, 158, 221);color: white;text-align: center;font-size: 22px;padding: 20px;">
+@copyright 2021 Awesome Phtoghraphy | All rights Reserved.
+</section>
+</body>
+</html>
